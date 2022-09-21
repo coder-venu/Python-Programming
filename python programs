@@ -1,0 +1,76 @@
+#hello world
+print('Hello World')
+
+
+
+#swapping of two numbers without third variable
+a=int(input('enter a:'))
+b=int(input('enter b:'))
+a=a+b
+b=a-b
+a=a-b
+print(a)
+print(b)
+
+
+
+#grading
+x=int(input())
+if(x==100):
+    print('S')
+elif(x<=99 and x>=90):
+    print('A')
+elif(x<=89 and x>=80):
+    print('B')
+elif(x<=79 and x>=70):
+    print('C')
+elif(x<=69 and x>=60):
+    print('D')
+elif(x<=59 and x>=50):
+    print('E')
+elif(x<50):
+    print('F')
+else:
+    print('Invalid Input')
+    
+    
+    
+#fee c0llection
+x=input("Enter the student type\n")
+if x=="MSDS":
+    tf=float(input("Enter tuition fee\n"))
+    bf=float(input("Enter bus fee\n"))
+    a=tf+bf
+    print(f"The fees to be paid by the student is RS.{a}0")
+elif x=="MSH":
+    tf=float(input("Enter tuition fee\n"))
+    hf=float(input("Enter hostel fee\n"))
+    b=tf+hf
+    print(f"The fees to be paid by the student is RS.{b}0")
+elif x=="MGSDS":
+    tf=float(input("Enter tuition fee\n"))
+    bf=float(input("Enter bus fee\n"))
+    c=(1.5*tf)+bf
+    print(f"The fees to be paid by the student is RS.{c}0")    
+elif x=="MGSH":
+    tf=float(input("Enter tuition fee\n"))
+    hf=float(input("Enter hostel fee\n"))
+    d=(1.5*tf)+hf
+    print(f"The fees to be paid by the student is RS.{d}0")
+else:
+    print("not a student")
+    
+    
+    
+    
+#age detect
+by=int(input('Enter Year of Birth\n'))
+cy=int(input('Enter Current Year\n'))
+if cy>by:
+    b=cy-by
+    print(f'Your age is {b}')
+elif cy<by:
+    c=(cy+100)-by
+    print(f'Your age is {c}')
+else:
+    print('I Love You 3000')
