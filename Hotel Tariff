@@ -1,0 +1,24 @@
+#Write a  program to calculate the hotel tariff. The room rent is 20% high during peak seasons [April-June, November-December] .
+a=int(input())
+b=float(input())
+c=int(input())
+if(a==4):
+    d=((b*c)+c*(b*0.2))
+    print("Hotel Tariff: Rs.%.2f"%d)
+elif(a==6):
+    d=(c*(b*0.2)+(b*c))
+    print("Hotel Tariff: Rs.%.2f"%d)
+elif(a==5):
+    d=(c*(b*0.2)+(b*c))
+    print("Hotel Tariff: Rs.%.2f"%d)
+elif(a==11):
+    d=(c*(b*0.2)+(b*c))
+    print("Hotel Tariff: Rs.%.2f"%d)    
+elif(a==12):
+    d=(c*(b*0.2)+(b*c))
+    print("Hotel Tariff: Rs.%.2f"%d)
+elif(a>=13):
+    print("Invalid Input")
+else:
+    e=b*c
+    print("Hotel Tariff: Rs.%.2f"%e)
