@@ -1,0 +1,6 @@
+#simple interest
+p=int(input('p='))
+t=int(input('t='))
+r=float(input('r='))
+SI=(p*t*r)/100
+print('%.2f'%SI)
